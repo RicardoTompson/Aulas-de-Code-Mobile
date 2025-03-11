@@ -126,7 +126,7 @@
         let menuItems = [];
 
         const fetchMenu = () => {
-          fetch("https://cardapio-api.onrender.com/api/menu")
+          fetch("https://caffebreak.netlify.app/api/menu")
             .then((response) => {
               if (!response.ok) throw new Error("Erro ao carregar os dados");
               return response.json();
