@@ -5,6 +5,7 @@ const port = process.env.PORT || 3000;
 
 const corsOptions = {
   origin: [
+    'https://caffebreak.netlify.app'
     "http://127.0.0.1:5500",
     "http://localhost:5500",
     "https://web.postman.co/workspace/My-Workspace~1f7f2b48-6525-43de-8f39-ae29f79920ca/request/42907660-82b41a7d-da49-4c21-aec7-0c32da3f09b6?historyId=42907660-5bedd315-8dea-4641-83f7-541ee956df63&utm_source=postman&utm_medium=response_tab&utm_campaign=core&utm_content=link",
